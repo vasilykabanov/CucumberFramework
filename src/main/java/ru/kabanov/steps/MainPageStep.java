@@ -9,13 +9,8 @@ import ru.yandex.qatools.allure.annotations.Step;
  */
 public class MainPageStep {
 
-//    @Step("выбран пункт меню Ипотека{0}")
-//    public void stepIsClickedIpoteka(WebElement element){
-//        new MainPage().ipoteka.click();
-//    }
-
     @Step("Пользователь зашел на форму заполнения \"(.*)\"")
     public void stepIpotekaChoice(String item) {
-        new MainPage().ipotekaChoice(item);
+        new MainPage().subItemChoice(item);
     }
 }

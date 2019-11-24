@@ -26,12 +26,7 @@ public class MainPage extends BasePage {
         PageFactory.initElements(BaseSteps.getDriver(), this);
     }
 
-//    public void selectMenuItem(String itemName){
-//        menuItems.findElement(By.xpath(".//li[contains(@class,'current')]/*[contains(text(),'"+itemName+"')]")).click();
-//    }
-
-
-    public void ipotekaChoice(String item) {
+    public void subItemChoice(String item) {
         waitElementIsDisplayed(ipoteka);
         ipoteka.click();
         for (WebElement element : subItems){
