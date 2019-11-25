@@ -39,7 +39,7 @@ public class ScenarioStep {
         finishedHousingPageStep.isCheckedPaidCardCheckboxStep();
     }
 
-    @Тогда("^дождаемся появления \"есть возможность подтвердить доход справкой\"$")
+    @Тогда("^дожидаемся появления \"есть возможность подтвердить доход справкой\"$")
     public void thenWaitVisibilityOfElement() {
         finishedHousingPageStep.waitVisibilityOfElementStep();
     }
